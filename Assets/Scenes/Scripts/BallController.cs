@@ -25,7 +25,7 @@ public class BallController : MonoBehaviour
     void Update()
     {
         ballSpeed = rb_ball.angularVelocity.magnitude;
-        Debug.Log(ballSpeed);
+        //Debug.Log(ballSpeed);
 
         
 
