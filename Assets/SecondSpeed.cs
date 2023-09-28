@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpeedBoost : MonoBehaviour
+public class SecondSpeed : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
@@ -10,7 +10,7 @@ public class SpeedBoost : MonoBehaviour
 
 
 
-        other.attachedRigidbody.AddForce(0, 20, -15 * 2, ForceMode.Impulse);
+        other.attachedRigidbody.AddForce(-60, 0, 0 * 2, ForceMode.Impulse);
 
     }
 }
