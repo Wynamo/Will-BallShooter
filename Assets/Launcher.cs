@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Quick : MonoBehaviour
+public class Launcher : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
@@ -10,7 +10,7 @@ public class Quick : MonoBehaviour
 
 
 
-        other.attachedRigidbody.AddForce(0, 30, -30 * 2, ForceMode.Impulse);
+        other.attachedRigidbody.AddForce(0, 0, -45 * 2, ForceMode.Impulse);
 
     }
 }

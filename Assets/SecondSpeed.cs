@@ -10,7 +10,7 @@ public class SecondSpeed : MonoBehaviour
 
 
 
-        other.attachedRigidbody.AddForce(-60, 0, 0 * 2, ForceMode.Impulse);
+        other.attachedRigidbody.AddForce(-75, 0, 0 * 2, ForceMode.Impulse);
 
     }
 }
